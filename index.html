@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>eCommerce Product</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <main class="main">
+    <div class="container">
+      <header class="header">
+        <div class="menu_cta">
+          <button class="menu_btn"><img src="./assets/images/icon-menu.svg" alt=""></button>
+        </div>
+        <a href="#" class="logo"><img src="./assets/images/logo.svg" alt=""></a>
+        <ul class="nav_menu">
+          <li class="nav_item"><a href="#" class="nav_link">Collections</a></li>
+          <li class="nav_item"><a href="#" class="nav_link">Men</a></li>
+          <li class="nav_item"><a href="#" class="nav_link">Women</a></li>
+          <li class="nav_item"><a href="#" class="nav_link">About</a></li>
+          <li class="nav_item"><a href="#" class="nav_link">Contact</a></li>
+        </ul>
+        <div class="header_cta">
+          <div class="cart">
+            <button class="cart_btn">
+              <img src="./assets/images/icon-cart.svg" alt="">
+              <span class="cart_indicator">1</span>
+            </button>
+            <div class="cart_container">
+              <div class="cart_header">
+                <h3 class="cart_title">Cart</h3>
+              </div>
+              <div class="card_body">
+                <img src="./assets/images/image-product-1-thumbnail.jpg" alt="">
+                <div class="cart_body_info">
+                  <a href="#" class="cart_product_title">Fall Limited Edition Sneakers</a>
+                  <span class="cart_price">$125 x 3 $375</span>
+                </div>
+                <button class="remove_from_btn"><img src="./assets/images/icon-delete.svg" alt=""></button>
+              </div>
+              <div class="cart_footer">
+                <button class="checkout_btn">Checkout</button>
+              </div>
+            </div>
+          </div>
+          <a href="#" class="profile"><img src="./assets/images/image-avatar.png" alt=""></a>
+        </div>
+      </header>
+      <section class="product_container">
+        <div class="left">
+          <div class="main_img">
+            <img src="./assets/images/image-product-1.jpg" alt="">
+          </div>
+          <div class="thumbnails">
+            <div class="thumbnail active"><img src="./assets/images/image-product-1.jpg" alt=""></div>
+            <div class="thumbnail"><img src="./assets/images/image-product-2.jpg" alt=""></div>
+            <div class="thumbnail"><img src="./assets/images/image-product-3.jpg" alt=""></div>
+            <div class="thumbnail"><img src="./assets/images/image-product-4.jpg" alt=""></div>
+          </div>
+        </div>
+        <div class="right">
+          <div class="right_header">
+            <h4 class="subtitle">Sneakers Company</h4>
+            <h1 class="product_title">Fall Limited Edition Sneakers</h1>
+            <p class="product_desc">These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+          </div>
+          <div class="prices">
+            <h3 class="discount_price">$125.00</h3><span class="discount_percent">50%</span>
+            <p class="original_price">$250.00</p>
+          </div>
+          <div class="product_cta">
+            <div class="amount_container">
+              <button class="btn_amount decrease"><img src="./assets/images/icon-minus.svg" alt=""></button>
+              <span class="amount">0</span>
+              <button class="btn_amount increase"><img src="./assets/images/icon-plus.svg" alt=""></button>
+            </div>
+            <button class="add_to_cart_btn">Add To Cart</button>
+          </div>
+        </div>
+      </section>
+      <section class="slider">
+        <div class="slider_main">
+          <div class="slide_container">
+            <div class="slider_controls">
+              <button class="close_slide">
+                <svg width="14" height="15"><path d="m11.596.782 2.122 2.122L9.12 7.499l4.597 4.597-2.122 2.122L7 9.62l-4.595 4.597-2.122-2.122L4.878 7.5.282 2.904 2.404.782l4.595 4.596L11.596.782Z" fill="#69707D" fill-rule="evenodd"/></svg>
+              </button>
+              <button class="prev_btn slide_btn">
+                <svg width="12" height="18"><path d="M11 1 3 9l8 8" stroke="#1D2026" stroke-width="3" fill="none" fill-rule="evenodd"/></svg>
+              </button>
+              <button class="next_btn slide_btn">
+                <svg width="13" height="18"><path d="m2 1 8 8-8 8" stroke="#1D2026" stroke-width="3" fill="none" fill-rule="evenodd"/></svg>
+              </button>
+            </div>
+            <div class="slides">
+              <div class="slide"><img src="./assets/images/image-product-1.jpg" alt=""></div>
+              <div class="slide"><img src="./assets/images/image-product-2.jpg" alt=""></div>
+              <div class="slide"><img src="./assets/images/image-product-3.jpg" alt=""></div>
+              <div class="slide"><img src="./assets/images/image-product-4.jpg" alt=""></div>
+            </div>
+          </div>
+        </div>
+        <div class="slide_thumbnails">
+          <div class="slide_thumbnail"><img src="./assets/images/image-product-1.jpg" alt=""></div>
+          <div class="slide_thumbnail"><img src="./assets/images/image-product-2.jpg" alt=""></div>
+          <div class="slide_thumbnail"><img src="./assets/images/image-product-3.jpg" alt=""></div>
+          <div class="slide_thumbnail"><img src="./assets/images/image-product-4.jpg" alt=""></div>
+        </div>
+      </section>
+    </div>
+  </main>
+</body>
+</html>
